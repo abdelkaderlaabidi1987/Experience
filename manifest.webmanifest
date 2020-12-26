@@ -1,10 +1,22 @@
+
+{
 "name": "abdelkader",
 "short_name": "LAABIDI",
 "start_url": "./",
 "scope": "/",
 "display": "standalone",
+"short_name": "abdelkader",
+"name": "laabidi",
+"lang": "en",
+"description": "ok",
+"background_color": "#e3001b",
+"theme_color": "#00aae7",
+"dir": "ltr",
+"display": "standalone",
+"orientation": "any",
 
-"icons": [
+"icons": 
+  [
   {
    "src": "/android-icon-192x192-dunplab-manifest-34726.png",
    "type": "image/png",
@@ -71,3 +83,4 @@
    "sizes": "16x16"
   }
  ],
+ }
