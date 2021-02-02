@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | JEUX-UNITY</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/compile.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">JEUX-UNITY</div>
-      </div>
-    </div>
-  </body>
+<html>
+<head>
+	<title>visite360</title>
+	<script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+</head>
+<body>
+	<a-scene>
+
+
+
+		<a-assets>
+			<img id="image" src="image360.jpg">
+		</a-assets>
+
+		<a-sky src="#image"></a-sky>
+
+
+
+
+
+	</a-scene>
+
+</body>
 </html>
